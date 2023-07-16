@@ -1,0 +1,309 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    #head{
+width: 100%;
+height: 25px;
+background-color: aquamarine;
+
+}
+
+#nav{  
+    height: 100%; 
+    position: fixed;
+    left: 0;
+    top: 0; 
+    width: 250px;
+     margin-top: 40px; 
+    background-color: brown; 
+    transform: translateX(-250px);}
+
+    #nav li{ color: aquamarine; 
+        border-bottom: 1px solid rgba( 255, 255, 255, 0.10);
+         margin: 20px 0px 0px 0px;}
+
+
+#nav a{ 
+       text-decoration: none;
+       color: beige;
+       text-transform: uppercase;
+       font-size: 30px;
+       }
+
+        #X{ 
+            width: 30px; 
+            height: 30px; 
+            color:black;
+             position: fixed;
+             font-size: 35px; 
+             margin-left: 5px;
+            margin-top: 5px;
+            display: none;}
+
+               #sqar{ 
+                display: block;
+            background: none;
+            border: none;
+            color:white;
+            font-size: 30px;
+            cursor: pointer;
+               }
+
+#menu1{ list-style:none; padding: 0; margin: 0; width:100%;
+     text-decoration: none;
+    color: white;
+}
+
+#menu{ 
+       display:inline-block;
+       margin:40px;
+       background:rgb(160, 14, 165);
+       color:white;
+        width:15%;
+        height: 39px;
+        font-size: 28px;
+        text-align: center;
+        margin-top: 10px; 
+        float: left;
+        margin-left: 8px;
+        margin-right: 0;
+}
+
+#menu:hover{ background-color:blue;
+ }
+
+
+#line{text-decoration: none;
+    color: white;
+}
+
+    #marq{
+        color: red;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+
+    #name{
+        width: 100%;
+        height: 160px;
+        background-color:rgb(216, 210, 210);
+        float: left;
+    }
+    #namd{
+        font-size: 60px;
+        margin: 15px 20px 20px 20px;
+        
+    }
+
+    #image{
+        width: 100%;
+        height: 200px;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    #ban1{
+        width: auto;
+        height: 200px;
+       
+    }
+
+    #pro{
+        text-align: center;
+        font-family: inherit;
+        font-weight: bold;
+    }
+
+   /* #PRODUCTS{
+        width: 100%;
+        height: 1000px;
+        border: 2px black solid;
+    }*/
+
+    #box{
+        width: 130px;
+        height: 220px;
+        border: 2px grey solid;
+        margin: 3px;
+        float: left;
+    }
+
+    #write{
+        margin: 0px;
+        font-size: 20px;
+    }
+
+    #add{
+        float: right;
+        margin-top: 15px;
+        height: 29px;
+        width: 43%;
+        background-color: goldenrod;
+        border: none;
+        
+    }
+
+    #price{
+        float: left;
+        margin: 13px 0px 0px 0px;
+        font-size: 23px;
+    }
+
+   /* #box1{
+        width: 130px;
+        height: 200px;
+        border: 2px grey solid;
+        float: right;
+        margin-top: 17px;
+        margin-right: 5px;
+        margin-bottom: 17px;
+    }*/
+
+
+    #phto{
+        width: 100%;
+        height: 150px;
+        border-radius: 5px 40px 5px 40px;
+        
+    }
+
+    #scr{
+        height: 150px;
+        width: 100%;
+    }
+
+
+
+    #image2{
+        width: 100%;
+        height: 200px;
+        box-sizing: border-box;
+    
+    }
+
+    #ban{
+        width: auto;
+        height: 200px;
+        margin-left: 3px;
+    }
+
+   /* #product2{
+        width: 100%;
+        height: 750px;
+        border: 3px black solid;
+    }*/
+
+    #footer{
+        width: 100%;
+        height: 250px;
+        background-color: black;
+    }
+
+
+    @media(max-width:600px){
+        #head{
+            width: auto;
+            height: 80px;
+            background-color: blueviolet;
+        }
+
+        #ban1{
+            width: auto;
+        }
+
+
+        #nav{
+            width: 60%;
+        }
+
+        #nav a{
+            font-size: 30px;
+        }
+
+        #price{
+            font-size: 17px;
+        }
+
+
+        #best{
+            font-size: 30px;
+        }
+
+        #menu{width: 17%;
+            height: 22px;
+            font-size: 15px;
+            margin-top: 20px;
+            margin-left: 6px; 
+        }
+
+        #menu:hover{background-color:red;}
+
+        #image{
+            width: auto;
+            height: 200px;
+        }
+
+        #PRODUCTS{
+            width: auto;
+            height: 1650px;
+        }
+
+        #box{
+            float: left;
+        }
+
+        #image2{
+            width: auto;
+            height: 200px;
+        }
+
+        #ban{
+            width: 95%;
+        }
+
+        #product2{
+            height: 2450px;
+        }
+
+        #footer{
+            width: auto;
+            height: 300px;
+        }
+
+        #box{
+            width: 47%;
+            margin-bottom: 40px;
+            
+        }}
+        
+        
+   
+/*#menu1{
+text-decoration: none;
+color: white;
+margin-top: 60px;
+background-color: blueviolet;
+   width: 89%; }
+
+   
+    #menu{ display:inline-block;
+         width:12%; 
+        font-size: 25px; 
+    width:15% ;
+height: 45px;}
+
+        #line{ color:white;
+             text-decoration:none; 
+             float:left;
+              font-size:28px;
+               margin:11px; }
+
+        #menu :hover{
+            background-color: brown;
+        }
+   #line{
+        line-height: 30px;
+        color: black;
+    }*/
